@@ -1,0 +1,66 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation Bar</title>
+
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        
+        .bg-body-tertiary {
+            background-color: rgb(32, 32, 146) ; 
+
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary"> 
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Basket</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    {%for list in abaut_list%}
+                <div class="card text-center ">
+                    <div class="card-header">
+                      {{list.name}}
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title">{{list.title}}</h5>
+                      <p class="card-text">{{list.abaut}}</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                    <div class="card-footer text-body-secondary">
+                     {{list.days}}
+                    </div>
+                  </div>
+            {%endfor%}
+
+        {% for listss in index_list%}
+            <div class="row g-0 bg-body-secondary position-relative">
+                <div class="col-md-6 mb-md-0 p-md-4">
+                  <img src="{%static 'index_ls.jpeg'%}" class="w-100" alt="...">
+                </div>
+                <div class="col-md-6 p-4 ps-md-0">
+                  <h5 class="mt-0">{{listss.title}}</h5>
+                  <p>{{listss.abaut}}</p>
+                  <a href="#" class="stretched-link">Go Shoping</a>
+                </div>
+              </div>
+              {%endfor%}
+          
+

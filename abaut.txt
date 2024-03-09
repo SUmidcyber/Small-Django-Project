@@ -1,0 +1,26 @@
+Python django ile basit bir e ticaret sistemi; 
+
+Ürünlerin olduğu sayfa 
+Sepet sayfası 
+Hakkımızda sayfası 
+Şeklinde olacak 
++ Admin panel üzerinden dinamik olarak ürün eklenebileck.
+
+Ürün konusunda çok kasmaya gerek yok Görsel açıklama ve fiyat bilgisi olması yeterli.
+
+
+
+<
+
+            1) Ethical Hacking 
+            2) Everest-ewn
+            3) Flipper-zero
+            4) HackRF
+
+>'
+
+
+
+
+
+       
