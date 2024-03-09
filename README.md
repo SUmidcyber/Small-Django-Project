@@ -1,2 +1,12 @@
 # Small-Django-Project
- This project creates a basic structure for an e-commerce website. Developed using the Django web framework, the site provides users with an interface to list products, filter them by categories, and obtain information about the products. The Bootstrap CSS framework is used to provide the visual design of the user interface. Key features of the site include dynamic product listing, category-based navigation, and access to product details.
+In the project, a website is created using a Django application. The website includes a navigation bar, a homepage where products are listed, and a sidebar menu with categories, all styled using the Bootstrap CSS framework.
+
+On the homepage, the list of available products is dynamically generated. Each product is displayed within a card, containing its name, description, and an image. The images are served as static files on the server and added to the page using static templatetags.
+
+In the sidebar menu, the categories of products are listed, allowing users to navigate between different product groups by clicking on them.
+
+Additionally, the product cards are arranged side by side using Bootstrap's grid system. Each row contains three product cards, providing an organized layout for users to easily view and browse through the products.
+
+All these features are designed and implemented following the model-view-template (MVT) architecture of Django. Django combines database operations (model), user interface (view), and HTML templates (template) to create a dynamic and user-friendly website.
+
+
