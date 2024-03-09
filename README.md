@@ -9,4 +9,5 @@ Additionally, the product cards are arranged side by side using Bootstrap's grid
 
 All these features are designed and implemented following the model-view-template (MVT) architecture of Django. Django combines database operations (model), user interface (view), and HTML templates (template) to create a dynamic and user-friendly website.
 
-
+[![image](https://github.com/SUmidcyber/Small-Django-Project/assets/134206387/b6cc7031-d8b3-4a71-9739-59181bf3f584)
+](https://miro.medium.com/v2/resize:fit:1200/1*slHeZngyeUr7ypEz7MNL5w.png)https://miro.medium.com/v2/resize:fit:1200/1*slHeZngyeUr7ypEz7MNL5w.png
